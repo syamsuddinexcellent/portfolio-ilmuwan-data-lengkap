@@ -1,0 +1,40 @@
+{
+  "n_train": 3148,
+  "n_test": 787,
+  "purge_rows": 1,
+  "train_period": [
+    "2010-03-01",
+    "2023-01-20"
+  ],
+  "test_period": [
+    "2023-01-25",
+    "2026-05-26"
+  ],
+  "train_up_share": 0.5464,
+  "test_up_share": 0.5273,
+  "features": [
+    "ihsg_ret",
+    "ihsg_ret_lag1",
+    "ihsg_ret_lag2",
+    "ihsg_ret_lag3",
+    "ihsg_mom_5d",
+    "ihsg_dist_ma5",
+    "ihsg_dist_ma20",
+    "ihsg_vol_10d",
+    "sp500_ret",
+    "sp500_ret_lag1",
+    "vix_level",
+    "vix_chg",
+    "oil_ret",
+    "gold_ret",
+    "usdidr_ret",
+    "rate_spread"
+  ],
+  "winsorization": "1%-99% kuantil data latih",
+  "pit_test": {
+    "dates_tested": 40,
+    "mismatch": 0,
+    "passed": true,
+    "negative_control_detected": true
+  }
+}

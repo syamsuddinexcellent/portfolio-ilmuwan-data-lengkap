@@ -1,0 +1,17 @@
+fitur,sumber,definisi,alasan
+ihsg_ret,IHSG,Return IHSG hari t (%),Momentum/pembalikan sangat pendek
+ihsg_ret_lag1,IHSG,Return IHSG hari t-1 (%),Memori pasar
+ihsg_ret_lag2,IHSG,Return IHSG hari t-2 (%),Memori pasar
+ihsg_ret_lag3,IHSG,Return IHSG hari t-3 (%),Memori pasar
+ihsg_mom_5d,IHSG,Return IHSG 5 hari bursa terakhir (%),Momentum mingguan
+ihsg_dist_ma5,IHSG,Jarak penutupan ke rata-rata 5 hari (%),Kondisi jenuh beli/jual jangka pendek
+ihsg_dist_ma20,IHSG,Jarak penutupan ke rata-rata 20 hari (%),Posisi terhadap tren bulanan
+ihsg_vol_10d,IHSG,Simpangan baku return 10 hari (%),Rezim volatilitas
+sp500_ret,SP500,Return S&P 500 sesi hari t (%),Limpahan sesi AS semalam
+sp500_ret_lag1,SP500,Return S&P 500 sesi hari t-1 (%),Limpahan tertunda
+vix_level,VIX,Level VIX hari t,Tingkat kecemasan pasar global
+vix_chg,VIX,Perubahan VIX hari t (%),Perubahan sentimen risiko
+oil_ret,OIL,Return minyak hari t (%),Sentimen komoditas energi
+gold_ret,GOLD,Return emas hari t (%),Permintaan safe haven
+usdidr_ret,USDIDR,"Return USD/IDR hari t (%), positif = rupiah melemah",Aliran dana asing
+rate_spread,"BI_rate, US_rate","BI_rate − US_rate, nilai akhir bulan sebelumnya (poin %)",Diferensial kebijakan moneter

@@ -1,0 +1,7 @@
+Dimensi,Ukuran,Skor (%),Tindakan (Unit 5–6),Status
+Kelengkapan,Sel tidak kosong,99.98701062530849,Hapus baris 2010-01-01,Baik
+Keunikan,Tanggal tidak duplikat,100.0,-,Baik
+Validitas domain,Sel lolos aturan rentang,99.99766163919092,Tangani harga OIL negatif,Baik
+Kewajaran nilai,Baris USD/IDR wajar,99.13490764554595,Koreksi kutipan USD/IDR janggal,Perlu tindakan
+Keselarasan kalender,Baris = hari bursa BEI,92.98573766658873,Hapus hari libur BEI,Perlu tindakan
+Integritas waktu,Variabel bebas look-ahead,66.66666666666666,Keluarkan CPI; suku bunga = nilai akhir bulan sebelumnya,Perlu tindakan

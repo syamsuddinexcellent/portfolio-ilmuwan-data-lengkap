@@ -1,0 +1,7 @@
+langkah,baris_sebelum,baris_sesudah,sel_diubah,keterangan
+1. Hapus baris tanpa data pasar,4277,4276,0,2010-01-01
+2. Koreksi kutipan USD/IDR janggal (forward-fill),4276,4276,37,37 nilai
+3. Tangani harga OIL negatif (forward-fill),4276,4276,1,20 Apr 2020
+4. Suku bunga point-in-time + keluarkan CPI,4276,4276,3426,BI_rate_pit & US_rate_pit = nilai akhir bulan sebelumnya; kolom CPI dihapus
+5. Hapus hari libur BEI (IHSG disalin),4276,3976,0,300 hari; konsisten dengan log Unit 4
+6. Hapus baris tanpa nilai PIT,3976,3956,0,04 Jan 2010 – 29 Jan 2010

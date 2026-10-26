@@ -1,0 +1,340 @@
+Date,variabel,nilai,masalah,tindakan
+2010-01-01,SEMUA_PASAR,,Nilai pasar kosong (libur Tahun Baru di semua bursa),hapus_baris
+2010-02-26,IHSG,2548.933837890625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2010-03-16,IHSG,2669.504150390625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2010-04-02,IHSG,2829.885986328125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2010-05-13,IHSG,2847.510986328125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2010-05-28,IHSG,2713.8173828125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2010-08-17,IHSG,3052.480224609375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2010-09-08,IHSG,3230.76220703125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2010-09-09,IHSG,3230.76220703125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2010-09-10,IHSG,3230.76220703125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2010-09-13,IHSG,3230.76220703125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2010-09-14,IHSG,3230.76220703125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2010-11-01,USDIDR,888.1099853515625,Kutipan kurs janggal (median + lonjak-kembali); deviasi -90.0% dari median 21 hari,ganti_nan_ffill
+2010-11-17,IHSG,3673.884033203125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2010-12-07,IHSG,3722.2021484375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2010-12-24,IHSG,3611.390380859375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2010-12-31,IHSG,3703.367919921875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2011-02-03,IHSG,3480.6904296875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2011-02-15,IHSG,3416.634033203125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2011-04-22,IHSG,3800.93310546875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2011-05-17,IHSG,3799.078125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2011-06-02,IHSG,3837.61181640625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2011-06-29,IHSG,3830.123779296875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2011-08-17,IHSG,3953.123291015625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2011-08-29,IHSG,3841.58154296875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2011-08-30,IHSG,3841.58154296875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2011-08-31,IHSG,3841.58154296875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2011-09-01,IHSG,3841.58154296875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2011-09-02,IHSG,3841.58154296875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2011-10-05,USDIDR,8622.0,Kutipan kurs janggal (lonjak-kembali); deviasi -2.9% dari median 21 hari,ganti_nan_ffill
+2011-12-26,IHSG,3797.0029296875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2012-01-23,IHSG,3986.359619140625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2012-02-07,USDIDR,892.0,Kutipan kurs janggal (median + lonjak-kembali); deviasi -90.1% dari median 21 hari,ganti_nan_ffill
+2012-03-23,IHSG,4041.40185546875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2012-04-06,IHSG,4166.2119140625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2012-05-17,IHSG,3980.341064453125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2012-05-18,IHSG,3980.341064453125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2012-08-17,IHSG,4160.345703125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2012-08-20,IHSG,4160.345703125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2012-08-21,IHSG,4160.345703125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2012-08-22,IHSG,4160.345703125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2012-10-26,IHSG,4338.984375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2012-11-15,IHSG,4351.11474609375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2012-11-16,IHSG,4351.11474609375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2012-11-26,USDIDR,9612.4501953125,Kutipan kurs janggal (macet); deviasi +0.2% dari median 21 hari,ganti_nan_ffill
+2012-12-10,USDIDR,9612.4501953125,Kutipan kurs janggal (macet); deviasi +0.1% dari median 21 hari,ganti_nan_ffill
+2012-12-17,USDIDR,9612.4501953125,Kutipan kurs janggal (macet); deviasi +0.0% dari median 21 hari,ganti_nan_ffill
+2012-12-24,IHSG,4250.048828125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2012-12-25,IHSG,4250.048828125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2012-12-31,IHSG,4316.5185546875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2012-12-31,USDIDR,9612.4501953125,Kutipan kurs janggal (macet); deviasi -0.1% dari median 21 hari,ganti_nan_ffill
+2013-01-01,IHSG,4316.5185546875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2013-01-14,USDIDR,9612.4501953125,Kutipan kurs janggal (macet); deviasi -0.1% dari median 21 hari,ganti_nan_ffill
+2013-01-24,IHSG,4418.5546875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2013-01-28,USDIDR,9612.4501953125,Kutipan kurs janggal (macet); deviasi -0.1% dari median 21 hari,ganti_nan_ffill
+2013-02-04,USDIDR,9612.4501953125,Kutipan kurs janggal (macet); deviasi -0.2% dari median 21 hari,ganti_nan_ffill
+2013-02-11,USDIDR,9612.4501953125,Kutipan kurs janggal (macet); deviasi -0.4% dari median 21 hari,ganti_nan_ffill
+2013-03-04,USDIDR,9612.4501953125,Kutipan kurs janggal (macet); deviasi -0.5% dari median 21 hari,ganti_nan_ffill
+2013-03-11,USDIDR,9612.4501953125,Kutipan kurs janggal (macet); deviasi -0.6% dari median 21 hari,ganti_nan_ffill
+2013-03-12,IHSG,4854.123046875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2013-03-25,USDIDR,9612.4501953125,Kutipan kurs janggal (macet); deviasi -0.8% dari median 21 hari,ganti_nan_ffill
+2013-03-29,IHSG,4940.7939453125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2013-04-01,USDIDR,9612.4501953125,Kutipan kurs janggal (macet); deviasi -0.8% dari median 21 hari,ganti_nan_ffill
+2013-04-29,USDIDR,9612.4501953125,Kutipan kurs janggal (macet); deviasi -0.8% dari median 21 hari,ganti_nan_ffill
+2013-05-06,USDIDR,9612.4501953125,Kutipan kurs janggal (macet); deviasi -0.9% dari median 21 hari,ganti_nan_ffill
+2013-05-09,IHSG,5089.13720703125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2013-06-03,USDIDR,9612.4501953125,Kutipan kurs janggal (macet); deviasi -1.6% dari median 21 hari,ganti_nan_ffill
+2013-06-06,IHSG,5001.0263671875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2013-06-17,USDIDR,9612.4501953125,Kutipan kurs janggal (macet); deviasi -1.7% dari median 21 hari,ganti_nan_ffill
+2013-06-24,USDIDR,9612.4501953125,Kutipan kurs janggal (macet); deviasi -2.7% dari median 21 hari,ganti_nan_ffill
+2013-07-01,USDIDR,9612.4501953125,Kutipan kurs janggal (macet); deviasi -2.9% dari median 21 hari,ganti_nan_ffill
+2013-07-15,USDIDR,9612.4501953125,Kutipan kurs janggal (macet + lonjak-kembali); deviasi -3.3% dari median 21 hari,ganti_nan_ffill
+2013-07-22,USDIDR,9612.4501953125,Kutipan kurs janggal (median + macet + lonjak-kembali); deviasi -4.2% dari median 21 hari,ganti_nan_ffill
+2013-08-05,IHSG,4640.60009765625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2013-08-06,IHSG,4640.60009765625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2013-08-07,IHSG,4640.60009765625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2013-08-08,IHSG,4640.60009765625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2013-08-09,IHSG,4640.60009765625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2013-10-14,IHSG,4519.736328125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2013-10-14,USDIDR,10787.0,Kutipan kurs janggal (median); deviasi -4.9% dari median 21 hari,ganti_nan_ffill
+2013-10-15,IHSG,4519.736328125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2013-10-21,USDIDR,10758.0,Kutipan kurs janggal (median + lonjak-kembali); deviasi -4.8% dari median 21 hari,ganti_nan_ffill
+2013-10-28,USDIDR,9612.4501953125,Kutipan kurs janggal (median + macet + lonjak-kembali); deviasi -14.7% dari median 21 hari,ganti_nan_ffill
+2013-11-05,IHSG,4423.11572265625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2013-11-11,USDIDR,9612.4501953125,Kutipan kurs janggal (median + macet); deviasi -15.2% dari median 21 hari,ganti_nan_ffill
+2013-11-18,USDIDR,9612.4501953125,Kutipan kurs janggal (median + macet + lonjak-kembali); deviasi -16.5% dari median 21 hari,ganti_nan_ffill
+2013-11-25,USDIDR,9612.4501953125,Kutipan kurs janggal (median + macet + lonjak-kembali); deviasi -16.9% dari median 21 hari,ganti_nan_ffill
+2013-11-29,USDIDR,9612.4501953125,Kutipan kurs janggal (median + macet); deviasi -17.3% dari median 21 hari,ganti_nan_ffill
+2013-12-02,USDIDR,9612.4501953125,Kutipan kurs janggal (median + macet); deviasi -17.7% dari median 21 hari,ganti_nan_ffill
+2013-12-03,USDIDR,9612.4501953125,Kutipan kurs janggal (median + macet); deviasi -18.0% dari median 21 hari,ganti_nan_ffill
+2013-12-06,USDIDR,9612.4501953125,Kutipan kurs janggal (median + macet); deviasi -18.8% dari median 21 hari,ganti_nan_ffill
+2013-12-09,USDIDR,9610.0,Kutipan kurs janggal (median); deviasi -19.1% dari median 21 hari,ganti_nan_ffill
+2013-12-25,IHSG,4202.669921875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2013-12-26,IHSG,4202.669921875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2013-12-31,IHSG,4274.01025390625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2014-01-01,IHSG,4274.01025390625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2014-01-14,IHSG,4390.60009765625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2014-01-31,IHSG,4418.58447265625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2014-03-31,IHSG,4768.09130859375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2014-04-09,IHSG,4921.21240234375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2014-04-18,IHSG,4896.861328125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2014-05-01,IHSG,4839.95751953125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2014-05-15,IHSG,4991.44189453125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2014-05-27,IHSG,4963.7314453125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2014-05-29,IHSG,4985.38427734375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2014-07-09,IHSG,5024.51611328125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2014-07-28,IHSG,5088.60400390625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2014-07-29,IHSG,5088.60400390625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2014-07-30,IHSG,5088.60400390625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2014-07-31,IHSG,5088.60400390625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2014-08-01,IHSG,5088.60400390625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2014-12-25,IHSG,5166.78173828125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2014-12-26,IHSG,5166.78173828125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2014-12-31,IHSG,5226.7431640625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2015-01-01,IHSG,5226.7431640625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2015-02-19,IHSG,5390.23974609375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2015-04-03,IHSG,5456.18701171875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2015-05-01,IHSG,5086.22705078125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2015-05-14,IHSG,5245.9287109375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2015-06-02,IHSG,5213.61279296875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2015-07-16,IHSG,4869.65966796875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2015-07-17,IHSG,4869.65966796875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2015-07-20,IHSG,4869.65966796875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2015-07-21,IHSG,4869.65966796875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2015-08-17,IHSG,4585.21240234375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2015-09-24,IHSG,4244.26171875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2015-10-14,IHSG,4482.90185546875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2015-12-09,IHSG,4464.00830078125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2015-12-24,IHSG,4522.4775390625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2015-12-25,IHSG,4522.4775390625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2015-12-31,IHSG,4592.8291015625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2016-01-01,IHSG,4592.8291015625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2016-02-08,IHSG,4798.7587890625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2016-03-09,IHSG,4810.85498046875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2016-03-25,IHSG,4826.8994140625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2016-05-05,IHSG,4822.40771484375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2016-05-06,IHSG,4822.40771484375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2016-07-04,IHSG,4971.3876953125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2016-07-05,IHSG,4971.3876953125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2016-07-06,IHSG,4971.3876953125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2016-07-07,IHSG,4971.3876953125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2016-07-08,IHSG,4971.3876953125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2016-08-17,IHSG,5371.63671875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2016-09-12,IHSG,5281.7109375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2016-12-12,IHSG,5308.1259765625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2016-12-26,IHSG,5027.7041015625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2017-01-02,IHSG,5296.7109375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2017-02-15,IHSG,5380.669921875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2017-03-28,IHSG,5541.2021484375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2017-04-14,IHSG,5616.544921875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2017-04-19,IHSG,5606.51708984375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2017-04-24,IHSG,5664.47509765625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2017-05-01,IHSG,5685.2978515625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2017-05-11,IHSG,5653.0078125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2017-05-25,IHSG,5703.43310546875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2017-06-01,IHSG,5738.15478515625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2017-06-23,IHSG,5829.7080078125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2017-06-26,IHSG,5829.7080078125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2017-06-27,IHSG,5829.7080078125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2017-06-28,IHSG,5829.7080078125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2017-06-29,IHSG,5829.7080078125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2017-06-30,IHSG,5829.7080078125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2017-08-17,IHSG,5891.94921875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2017-09-01,IHSG,5864.05908203125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2017-09-21,IHSG,5906.5732421875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2017-12-01,IHSG,5952.13818359375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2017-12-25,IHSG,6221.01318359375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2017-12-26,IHSG,6221.01318359375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2018-01-01,IHSG,6355.65380859375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2018-02-16,IHSG,6591.58203125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2018-03-30,IHSG,6188.98681640625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2018-05-01,IHSG,5994.59521484375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2018-05-10,IHSG,5907.93798828125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2018-05-29,IHSG,6068.3251953125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2018-06-01,IHSG,5983.5869140625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2018-06-11,IHSG,5993.626953125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2018-06-12,IHSG,5993.626953125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2018-06-13,IHSG,5993.626953125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2018-06-14,IHSG,5993.626953125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2018-06-15,IHSG,5993.626953125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2018-06-18,IHSG,5993.626953125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2018-06-19,IHSG,5993.626953125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2018-08-17,IHSG,5783.7978515625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2018-08-22,IHSG,5944.30078125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2018-09-11,IHSG,5831.1171875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2018-11-20,IHSG,6005.296875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2018-12-24,IHSG,6163.59619140625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2018-12-25,IHSG,6163.59619140625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2018-12-31,IHSG,6194.498046875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2019-01-01,IHSG,6194.498046875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2019-02-05,IHSG,6481.451171875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2019-03-07,IHSG,6457.9560546875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2019-04-03,IHSG,6476.06591796875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2019-04-17,IHSG,6481.541015625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2019-04-19,IHSG,6507.22119140625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2019-05-01,IHSG,6455.35205078125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2019-05-30,IHSG,6104.10595703125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2019-06-03,IHSG,6209.1171875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2019-06-04,IHSG,6209.1171875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2019-06-05,IHSG,6209.1171875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2019-06-06,IHSG,6209.1171875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2019-06-07,IHSG,6209.1171875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2019-12-24,IHSG,6305.91015625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2019-12-25,IHSG,6305.91015625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2019-12-31,IHSG,6299.5390625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2020-01-01,IHSG,6299.5390625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2020-01-28,USDIDR,13213.240234375,Kutipan kurs janggal (lonjak-kembali); deviasi -3.2% dari median 21 hari,ganti_nan_ffill
+2020-03-25,IHSG,3937.632080078125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2020-04-10,IHSG,4649.0791015625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2020-04-20,OIL,-37.630001068115234,Harga minyak negatif (peristiwa nyata: kontrak WTI kedaluwarsa); return % tidak terdefinisi,ganti_nan_ffill
+2020-05-01,IHSG,4716.40283203125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2020-05-07,IHSG,4608.7900390625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2020-05-21,IHSG,4545.9521484375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2020-05-22,IHSG,4545.9521484375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2020-05-25,IHSG,4545.9521484375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2020-06-01,IHSG,4753.61181640625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2020-07-31,IHSG,5149.626953125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2020-08-17,IHSG,5247.68994140625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2020-08-20,IHSG,5272.81005859375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2020-08-21,IHSG,5272.81005859375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2020-10-28,IHSG,5128.22509765625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2020-10-29,IHSG,5128.22509765625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2020-10-30,IHSG,5128.22509765625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2020-12-09,IHSG,5944.4091796875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2020-12-24,IHSG,6008.708984375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2020-12-25,IHSG,6008.708984375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2020-12-31,IHSG,5979.0732421875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2021-01-01,IHSG,5979.0732421875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2021-02-12,IHSG,6222.52099609375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2021-03-11,IHSG,6264.67919921875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2021-04-02,IHSG,6011.4560546875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2021-05-12,IHSG,5938.35107421875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2021-05-13,IHSG,5938.35107421875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2021-05-14,IHSG,5938.35107421875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2021-05-26,IHSG,5815.83984375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2021-06-01,IHSG,5947.462890625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2021-07-20,IHSG,6017.39404296875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2021-08-11,IHSG,6088.408203125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2021-08-17,IHSG,6087.9130859375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2021-10-20,IHSG,6655.998046875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2021-12-31,IHSG,6581.48193359375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2022-02-01,IHSG,6631.15087890625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2022-02-28,IHSG,6888.1708984375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2022-03-03,IHSG,6868.40185546875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2022-04-15,IHSG,7235.5322265625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2022-04-29,IHSG,7228.9140625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2022-05-02,IHSG,7228.9140625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2022-05-03,IHSG,7228.9140625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2022-05-04,IHSG,7228.9140625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2022-05-05,IHSG,7228.9140625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2022-05-06,IHSG,7228.9140625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2022-05-16,IHSG,6597.9931640625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2022-05-26,IHSG,6883.50390625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2022-06-01,IHSG,7148.97021484375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2022-08-17,IHSG,7133.453125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2023-01-23,IHSG,6874.93115234375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2023-03-22,IHSG,6691.61083984375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2023-03-23,IHSG,6691.61083984375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2023-04-07,IHSG,6792.76513671875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2023-04-19,IHSG,6821.80712890625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2023-04-20,IHSG,6821.80712890625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2023-04-21,IHSG,6821.80712890625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2023-04-24,IHSG,6821.80712890625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2023-04-25,IHSG,6821.80712890625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2023-05-01,IHSG,6915.7158203125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2023-05-18,IHSG,6663.11376953125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2023-06-01,IHSG,6633.26123046875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2023-06-02,IHSG,6633.26123046875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2023-06-28,IHSG,6661.87890625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2023-06-29,IHSG,6661.87890625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2023-06-30,IHSG,6661.87890625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2023-07-19,IHSG,6830.203125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2023-08-17,IHSG,6900.5380859375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2023-09-28,IHSG,6937.828125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2023-12-25,IHSG,7237.51904296875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2023-12-26,IHSG,7237.51904296875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2024-01-01,IHSG,7272.796875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2024-02-08,IHSG,7235.15185546875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2024-02-09,IHSG,7235.15185546875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2024-02-14,IHSG,7209.7412109375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2024-03-11,IHSG,7381.9072265625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2024-03-12,IHSG,7381.9072265625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2024-03-29,IHSG,7288.81298828125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2024-04-08,IHSG,7286.8818359375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2024-04-09,IHSG,7286.8818359375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2024-04-10,IHSG,7286.8818359375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2024-04-11,IHSG,7286.8818359375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2024-04-12,IHSG,7286.8818359375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2024-04-15,IHSG,7286.8818359375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2024-05-01,IHSG,7234.19677734375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2024-05-09,IHSG,7088.794921875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2024-05-10,IHSG,7088.794921875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2024-05-23,IHSG,7222.3818359375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2024-05-24,IHSG,7222.3818359375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2024-06-17,IHSG,6734.83203125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2024-06-18,IHSG,6734.83203125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2024-09-16,IHSG,7812.130859375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2024-11-27,IHSG,7245.88818359375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2024-12-25,IHSG,7065.74609375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2024-12-26,IHSG,7065.74609375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2024-12-26,USDIDR,15069.400390625,Kutipan kurs janggal (median); deviasi -6.7% dari median 21 hari,ganti_nan_ffill
+2024-12-31,IHSG,7079.90478515625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2025-01-27,IHSG,7166.05615234375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2025-01-28,IHSG,7166.05615234375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2025-01-29,IHSG,7166.05615234375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2025-03-28,IHSG,6510.6201171875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2025-03-31,IHSG,6510.6201171875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2025-04-01,IHSG,6510.6201171875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2025-04-02,IHSG,6510.6201171875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2025-04-03,IHSG,6510.6201171875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2025-04-04,IHSG,6510.6201171875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2025-04-07,IHSG,6510.6201171875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2025-05-01,IHSG,6766.794921875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2025-05-12,IHSG,6832.80322265625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2025-05-13,IHSG,6832.80322265625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2025-05-29,IHSG,7175.81884765625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2025-05-30,IHSG,7175.81884765625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2025-06-06,IHSG,7113.4248046875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2025-06-09,IHSG,7113.4248046875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2025-06-19,USDIDR,15598.5,Kutipan kurs janggal (lonjak-kembali); deviasi -4.0% dari median 21 hari,ganti_nan_ffill
+2025-06-27,IHSG,6897.39990234375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2025-08-18,IHSG,7898.375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2025-09-05,IHSG,7867.34814453125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2025-12-26,IHSG,8537.9111328125,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2025-12-31,IHSG,8646.9384765625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2026-01-16,IHSG,9075.40625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2026-02-16,IHSG,8212.271484375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2026-02-17,IHSG,8212.271484375,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2026-03-18,IHSG,7106.8388671875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2026-03-19,IHSG,7106.8388671875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2026-03-20,IHSG,7106.8388671875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2026-03-23,IHSG,7106.8388671875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2026-03-24,IHSG,7106.8388671875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2026-04-03,IHSG,7026.7822265625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2026-05-01,IHSG,6956.80419921875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2026-05-14,IHSG,6723.31982421875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2026-05-15,IHSG,6723.31982421875,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2026-05-27,IHSG,6130.18994140625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris
+2026-05-28,IHSG,6130.18994140625,"IHSG sama persis dengan hari sebelumnya (hari libur BEI, nilai disalin)",hapus_baris

@@ -1,0 +1,36 @@
+{
+  "lower": {
+    "ihsg_ret": -3.177115,
+    "ihsg_ret_lag1": -3.177115,
+    "ihsg_ret_lag2": -3.177115,
+    "ihsg_ret_lag3": -3.177115,
+    "ihsg_mom_5d": -7.394576,
+    "ihsg_dist_ma5": -3.988662,
+    "ihsg_dist_ma20": -8.15708,
+    "ihsg_vol_10d": 0.316885,
+    "sp500_ret": -3.235954,
+    "sp500_ret_lag1": -3.235954,
+    "vix_level": 9.7747,
+    "vix_chg": -16.754525,
+    "oil_ret": -7.036484,
+    "gold_ret": -2.833721,
+    "usdidr_ret": -1.959325
+  },
+  "upper": {
+    "ihsg_ret": 2.875141,
+    "ihsg_ret_lag1": 2.875141,
+    "ihsg_ret_lag2": 2.875141,
+    "ihsg_ret_lag3": 2.875141,
+    "ihsg_mom_5d": 6.302351,
+    "ihsg_dist_ma5": 2.918342,
+    "ihsg_dist_ma20": 5.811576,
+    "ihsg_vol_10d": 3.07715,
+    "sp500_ret": 2.967567,
+    "sp500_ret_lag1": 2.967567,
+    "vix_level": 42.223799,
+    "vix_chg": 29.109591,
+    "oil_ret": 6.741451,
+    "gold_ret": 2.740081,
+    "usdidr_ret": 2.060984
+  }
+}

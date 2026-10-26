@@ -1,0 +1,183 @@
+{
+  "cv": {
+    "method": "TimeSeriesSplit",
+    "n_splits": 5,
+    "gap": 1
+  },
+  "primary_metric": "f1_macro",
+  "secondary_metric": "roc_auc",
+  "features": [
+    "ihsg_ret",
+    "ihsg_ret_lag1",
+    "ihsg_ret_lag2",
+    "ihsg_ret_lag3",
+    "ihsg_mom_5d",
+    "ihsg_dist_ma5",
+    "ihsg_dist_ma20",
+    "ihsg_vol_10d",
+    "sp500_ret",
+    "sp500_ret_lag1",
+    "vix_level",
+    "vix_chg",
+    "oil_ret",
+    "gold_ret",
+    "usdidr_ret",
+    "rate_spread"
+  ],
+  "baselines": [
+    {
+      "id": "B1",
+      "nama": "Mayoritas",
+      "estimator": "DummyClassifier",
+      "params": {
+        "strategy": "most_frequent"
+      },
+      "alasan": "Selalu menebak kelas terbanyak di data latih"
+    },
+    {
+      "id": "B2",
+      "nama": "Acak berstrata",
+      "estimator": "DummyClassifier",
+      "params": {
+        "strategy": "stratified",
+        "random_state": 42
+      },
+      "alasan": "Tebakan acak sesuai proporsi kelas"
+    },
+    {
+      "id": "B3",
+      "nama": "Ikuti arah S&P 500",
+      "estimator": "rule:sp500_ret",
+      "params": {},
+      "alasan": "Heuristik domain: Naik jika S&P 500 naik semalam"
+    }
+  ],
+  "models": [
+    {
+      "id": "S1",
+      "nama": "Logistic Regression",
+      "estimator": "LogisticRegression",
+      "scaling": true,
+      "params": {
+        "C": 1.0,
+        "class_weight": "balanced",
+        "max_iter": 2000
+      },
+      "grid": {
+        "C": [
+          0.01,
+          0.1,
+          1.0,
+          10.0
+        ]
+      },
+      "alasan": "Model linear, koefisien dapat diinterpretasi"
+    },
+    {
+      "id": "S2",
+      "nama": "Decision Tree",
+      "estimator": "DecisionTreeClassifier",
+      "scaling": false,
+      "params": {
+        "max_depth": 4,
+        "min_samples_leaf": 50,
+        "class_weight": "balanced",
+        "random_state": 42
+      },
+      "grid": {
+        "max_depth": [
+          3,
+          4,
+          6
+        ],
+        "min_samples_leaf": [
+          20,
+          50,
+          100
+        ]
+      },
+      "alasan": "Aturan keputusan eksplisit"
+    },
+    {
+      "id": "S3",
+      "nama": "Random Forest",
+      "estimator": "RandomForestClassifier",
+      "scaling": false,
+      "params": {
+        "n_estimators": 300,
+        "max_depth": 5,
+        "min_samples_leaf": 20,
+        "class_weight": "balanced",
+        "random_state": 42,
+        "n_jobs": -1
+      },
+      "grid": {
+        "max_depth": [
+          3,
+          5,
+          8
+        ],
+        "min_samples_leaf": [
+          10,
+          20,
+          50
+        ]
+      },
+      "alasan": "Ensemble robust, menangkap interaksi"
+    },
+    {
+      "id": "S4",
+      "nama": "Gradient Boosting",
+      "estimator": "GradientBoostingClassifier",
+      "scaling": false,
+      "params": {
+        "n_estimators": 150,
+        "max_depth": 2,
+        "learning_rate": 0.05,
+        "subsample": 0.8,
+        "random_state": 42
+      },
+      "grid": {
+        "n_estimators": [
+          150,
+          300
+        ],
+        "max_depth": [
+          2,
+          3
+        ],
+        "learning_rate": [
+          0.05,
+          0.1
+        ]
+      },
+      "alasan": "Boosting kuat untuk data tabular"
+    },
+    {
+      "id": "S5",
+      "nama": "SVM (RBF)",
+      "estimator": "SVC",
+      "scaling": true,
+      "params": {
+        "C": 1.0,
+        "gamma": "scale",
+        "class_weight": "balanced",
+        "probability": true,
+        "random_state": 42
+      },
+      "grid": {
+        "C": [
+          0.3,
+          1.0,
+          3.0
+        ],
+        "gamma": [
+          "scale",
+          0.01
+        ]
+      },
+      "alasan": "Batas keputusan non-linear"
+    }
+  ],
+  "selection_rule": "Pilih skenario S1–S5 dengan F1-macro rata-rata CV tertinggi (seri → ROC-AUC lebih tinggi). Lakukan grid search pada skenario terpilih dengan CV yang sama; grid selalu memuat parameter awal. Model final dilatih ulang pada seluruh data latih."
+}

@@ -1,0 +1,265 @@
+{
+  "model": "Random Forest",
+  "threshold": 0.5,
+  "n_test": 787,
+  "test_period": [
+    "2023-01-25",
+    "2026-05-26"
+  ],
+  "test_up_share": 0.5273189326556544,
+  "metrics": {
+    "accuracy": 0.5603557814485387,
+    "balanced_accuracy": 0.5577859826402384,
+    "f1_macro": 0.5576985550184521,
+    "precision_macro": 0.558199919103352,
+    "recall_macro": 0.5577859826402384,
+    "roc_auc": 0.5691475579738309
+  },
+  "baselines": {
+    "B1 Mayoritas": {
+      "accuracy": 0.5273189326556544,
+      "balanced_accuracy": 0.5,
+      "f1_macro": 0.3452579034941764,
+      "precision_macro": 0.2636594663278272,
+      "recall_macro": 0.5,
+      "roc_auc": 0.5
+    },
+    "B2 Acak berstrata": {
+      "accuracy": 0.5133418043202033,
+      "balanced_accuracy": 0.5107008679880813,
+      "f1_macro": 0.5104966310418355,
+      "precision_macro": 0.5107720396452791,
+      "recall_macro": 0.5107008679880813,
+      "roc_auc": 0.5107008679880813
+    },
+    "B3 Ikuti S&P 500": {
+      "accuracy": 0.5527318932655655,
+      "balanced_accuracy": 0.55,
+      "f1_macro": 0.5498472538186545,
+      "precision_macro": 0.5504114420062696,
+      "recall_macro": 0.55,
+      "roc_auc": 0.5801301982122036
+    }
+  },
+  "kpi": [
+    {
+      "Kode": "T1",
+      "Kriteria": "Accuracy",
+      "Nilai": 0.5603557814485387,
+      "Ambang": "≥ 0.55",
+      "Lulus": true
+    },
+    {
+      "Kode": "T2",
+      "Kriteria": "F1-macro",
+      "Nilai": 0.5576985550184521,
+      "Ambang": "≥ 0.55",
+      "Lulus": true
+    },
+    {
+      "Kode": "T3",
+      "Kriteria": "ROC-AUC",
+      "Nilai": 0.5691475579738309,
+      "Ambang": "≥ 0.58",
+      "Lulus": false
+    },
+    {
+      "Kode": "T4",
+      "Kriteria": "Mengalahkan B1 & B2 (accuracy, F1, AUC)",
+      "Nilai": NaN,
+      "Ambang": "semua lebih tinggi",
+      "Lulus": true
+    },
+    {
+      "Kode": "T5",
+      "Kriteria": "Tanpa kebocoran data",
+      "Nilai": NaN,
+      "Ambang": "uji PIT lulus + purging",
+      "Lulus": true
+    }
+  ],
+  "all_kpi_passed": false,
+  "vs_B3": {
+    "accuracy": 0.007623888182973215,
+    "f1_macro": 0.0078513011997976,
+    "roc_auc": -0.010982640238372698
+  },
+  "confusion_matrix": [
+    [
+      190,
+      182
+    ],
+    [
+      164,
+      251
+    ]
+  ],
+  "permutation_importance": [
+    {
+      "fitur": "sp500_ret",
+      "penurunan_auc": 0.04534158137928065,
+      "std": 0.021003048034764268
+    },
+    {
+      "fitur": "vix_chg",
+      "penurunan_auc": 0.020447596838968855,
+      "std": 0.009474808070550315
+    },
+    {
+      "fitur": "ihsg_ret_lag2",
+      "penurunan_auc": 0.000724618905730523,
+      "std": 0.003064969555565872
+    },
+    {
+      "fitur": "ihsg_ret",
+      "penurunan_auc": 0.0004933713348016362,
+      "std": 0.0015531033422464663
+    },
+    {
+      "fitur": "oil_ret",
+      "penurunan_auc": 0.00030163665414352964,
+      "std": 0.0033959282268376766
+    },
+    {
+      "fitur": "rate_spread",
+      "penurunan_auc": 0.0,
+      "std": 0.0
+    },
+    {
+      "fitur": "vix_level",
+      "penurunan_auc": -0.0002418275251543145,
+      "std": 0.001732712849684587
+    },
+    {
+      "fitur": "ihsg_ret_lag3",
+      "penurunan_auc": -0.0007425400526837859,
+      "std": 0.0013028610533280466
+    },
+    {
+      "fitur": "ihsg_vol_10d",
+      "penurunan_auc": -0.0007475061536467709,
+      "std": 0.0017694403480705534
+    },
+    {
+      "fitur": "gold_ret",
+      "penurunan_auc": -0.0009312518892774587,
+      "std": 0.0029300110322923478
+    },
+    {
+      "fitur": "sp500_ret_lag1",
+      "penurunan_auc": -0.0010100617523858195,
+      "std": 0.0012224168101097467
+    },
+    {
+      "fitur": "ihsg_ret_lag1",
+      "penurunan_auc": -0.0015474802435547848,
+      "std": 0.0031054582646219495
+    },
+    {
+      "fitur": "ihsg_dist_ma20",
+      "penurunan_auc": -0.0020969901109814818,
+      "std": 0.0022432295493733097
+    },
+    {
+      "fitur": "usdidr_ret",
+      "penurunan_auc": -0.0023101006175237954,
+      "std": 0.001893870492853131
+    },
+    {
+      "fitur": "ihsg_mom_5d",
+      "penurunan_auc": -0.002479379885131868,
+      "std": 0.0012892382925385076
+    },
+    {
+      "fitur": "ihsg_dist_ma5",
+      "penurunan_auc": -0.005699356566049067,
+      "std": 0.0028314609358616083
+    }
+  ],
+  "confidence_terciles": [
+    {
+      "keyakinan": "Rendah",
+      "hari": 262,
+      "akurasi": 0.5610687022900763,
+      "p_min": 0.4478821046470007,
+      "p_max": 0.553100705641674
+    },
+    {
+      "keyakinan": "Sedang",
+      "hari": 262,
+      "akurasi": 0.5343511450381679,
+      "p_min": 0.3878109814891842,
+      "p_max": 0.6120604146704932
+    },
+    {
+      "keyakinan": "Tinggi",
+      "hari": 263,
+      "akurasi": 0.5855513307984791,
+      "p_min": 0.21934088406632474,
+      "p_max": 0.7253654519916258
+    }
+  ],
+  "coverage_accuracy": {
+    "0.1": 0.6075949367088608,
+    "0.15": 0.6101694915254238,
+    "0.2": 0.5923566878980892,
+    "0.25": 0.5786802030456852,
+    "0.3": 0.576271186440678,
+    "0.35": 0.5927272727272728,
+    "0.4": 0.5936507936507937,
+    "0.45": 0.5903954802259888,
+    "0.5": 0.583756345177665,
+    "0.55": 0.5750577367205543,
+    "0.6": 0.5635593220338984,
+    "0.65": 0.56640625,
+    "0.7": 0.5626134301270418,
+    "0.75": 0.559322033898305,
+    "0.8": 0.5587301587301587,
+    "0.85": 0.5575485799701047,
+    "0.9": 0.556497175141243,
+    "0.95": 0.5614973262032086,
+    "1.0": 0.5603557814485387
+  },
+  "yearly": [
+    {
+      "tahun": 2023,
+      "hari": 223.0,
+      "proporsi_naik": 0.5515695067264574,
+      "akurasi_model": 0.600896860986547,
+      "akurasi_B3": 0.5919282511210763,
+      "akurasi_B1": 0.5515695067264574
+    },
+    {
+      "tahun": 2024,
+      "hari": 237.0,
+      "proporsi_naik": 0.510548523206751,
+      "akurasi_model": 0.5443037974683544,
+      "akurasi_B3": 0.4936708860759494,
+      "akurasi_B1": 0.510548523206751
+    },
+    {
+      "tahun": 2025,
+      "hari": 236.0,
+      "proporsi_naik": 0.559322033898305,
+      "akurasi_model": 0.5338983050847458,
+      "akurasi_B3": 0.538135593220339,
+      "akurasi_B1": 0.559322033898305
+    },
+    {
+      "tahun": 2026,
+      "hari": 91.0,
+      "proporsi_naik": 0.42857142857142855,
+      "akurasi_model": 0.5714285714285714,
+      "akurasi_B3": 0.6483516483516484,
+      "akurasi_B1": 0.42857142857142855
+    }
+  ],
+  "economic": {
+    "mean_ret_pred_naik": 0.1430117052184504,
+    "mean_ret_pred_turun": -0.19288220368582015,
+    "n_pred_naik": 433,
+    "n_pred_turun": 354,
+    "t_stat": 4.433681541456157,
+    "p_value": 1.0668534874912533e-05
+  }
+}

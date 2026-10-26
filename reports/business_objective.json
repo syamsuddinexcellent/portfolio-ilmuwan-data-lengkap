@@ -1,0 +1,36 @@
+{
+  "proyek": "Prediksi Arah Harian IHSG Berbasis Indikator Pasar Global dan Domestik",
+  "analis": "M. Syamsuddin Wisnubroto",
+  "studi_kasus": "Tim riset perusahaan sekuritas / manajer investasi (hipotetis)",
+  "pertanyaan_bisnis": "Apakah informasi pasar yang tersedia sebelum BEI dibuka dapat memperkirakan apakah IHSG ditutup lebih tinggi pada hari bursa berikutnya?",
+  "pemangku_kepentingan": [
+    "Manajer investasi",
+    "Analis riset",
+    "Manajemen risiko",
+    "Kepatuhan",
+    "Investor ritel",
+    "Tim data science"
+  ],
+  "tujuan_bisnis": [
+    "Indikator probabilitas arah IHSG hari bursa berikutnya, terbit sebelum 09.00 WIB",
+    "Peringkat faktor global/domestik yang paling berpengaruh",
+    "Peringatan dini hari dengan peluang turun tinggi"
+  ],
+  "di_luar_cakupan": [
+    "Sistem trading otomatis",
+    "Rekomendasi investasi"
+  ],
+  "kriteria_sukses_bisnis": {
+    "B1": "Lebih informatif daripada aturan naif (selalu naik / acak)",
+    "B2": "Faktor pendorong dapat dijelaskan",
+    "B3": "Dapat dihasilkan otomatis sebelum 08.30 WIB dari data publik",
+    "B4": "Keterbatasan dilaporkan secara jujur"
+  },
+  "risiko_utama": [
+    "Sinyal lemah (efisiensi pasar)",
+    "Perubahan rezim",
+    "Look-ahead bias",
+    "Kualitas data publik",
+    "Penyalahgunaan sebagai saran investasi"
+  ]
+}

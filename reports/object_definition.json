@@ -1,0 +1,61 @@
+{
+  "unit_analisis": "Satu hari bursa BEI (t)",
+  "target": "y=1 jika IHSG(t+1) > IHSG(t), t+1 = hari bursa BEI berikutnya",
+  "record": {
+    "mentah": 4277,
+    "setelah_seleksi": 3975
+  },
+  "atribut_dipakai": [
+    "IHSG",
+    "SP500",
+    "VIX",
+    "OIL",
+    "GOLD",
+    "USDIDR",
+    "BI_rate",
+    "US_rate"
+  ],
+  "atribut_dikeluarkan": {
+    "CPI": "look-ahead bias dan hanya 17 nilai unik (penanda tahun)"
+  },
+  "jumlah_fitur_rencana": 16,
+  "relevansi_eda": {
+    "SP500": {
+      "p_naik": 0.6379,
+      "p_turun": 0.4321,
+      "selisih": 0.2059,
+      "p_value": 0.0
+    },
+    "VIX": {
+      "p_naik": 0.4468,
+      "p_turun": 0.6267,
+      "selisih": -0.1799,
+      "p_value": 0.0
+    },
+    "OIL": {
+      "p_naik": 0.5871,
+      "p_turun": 0.4942,
+      "selisih": 0.0929,
+      "p_value": 0.0
+    },
+    "GOLD": {
+      "p_naik": 0.5664,
+      "p_turun": 0.5181,
+      "selisih": 0.0483,
+      "p_value": 0.0081
+    },
+    "USDIDR": {
+      "p_naik": 0.5351,
+      "p_turun": 0.5535,
+      "selisih": -0.0184,
+      "p_value": 0.3228
+    },
+    "IHSG": {
+      "p_naik": 0.5411,
+      "p_turun": 0.5492,
+      "selisih": -0.0081,
+      "p_value": 0.6723
+    }
+  },
+  "proporsi_naik_eda": 0.5449
+}

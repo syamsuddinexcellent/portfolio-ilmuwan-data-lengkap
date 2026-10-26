@@ -1,0 +1,43 @@
+{
+  "jenis_masalah": "Klasifikasi biner (deret waktu)",
+  "unit_observasi": "Satu hari bursa BEI (t)",
+  "target": {
+    "nama": "y",
+    "definisi": "y=1 (Naik) jika Close_IHSG(t+1) > Close_IHSG(t), selain itu 0 (Turun/Tetap)"
+  },
+  "aturan_fitur": "Hanya data yang tersedia sebelum BEI dibuka pada t+1 (point-in-time)",
+  "kpi": {
+    "T1_accuracy_min": 0.55,
+    "T2_f1_macro_min": 0.55,
+    "T3_roc_auc_min": 0.58,
+    "T4_kalahkan_baseline": [
+      "Mayoritas",
+      "Acak berstrata"
+    ],
+    "T5_tanpa_kebocoran": true
+  },
+  "validasi": {
+    "holdout": "kronologis 80/20",
+    "cv": "TimeSeriesSplit(n_splits=5)",
+    "eda_end": "2022-12-31"
+  },
+  "kandidat_model": [
+    "Logistic Regression",
+    "Decision Tree",
+    "Random Forest",
+    "Gradient Boosting",
+    "SVM (RBF)"
+  ],
+  "baseline": [
+    "Mayoritas",
+    "Acak berstrata",
+    "Ikuti arah S&P 500"
+  ],
+  "lingkungan": {
+    "python": "3.9.6",
+    "pandas": "2.3.3",
+    "numpy": "2.0.2",
+    "scikit_learn": "1.6.1",
+    "matplotlib": "3.9.4"
+  }
+}

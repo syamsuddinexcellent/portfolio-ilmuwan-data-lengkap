@@ -1,0 +1,10 @@
+Variabel,Deskripsi,Satuan,Tipe,Nilai unik,Perubahan/tahun,Kategori,Frekuensi teramati
+OIL,Harga minyak mentah,USD/barel,float64,3212,250.6,Harian,Harian
+GOLD,Harga emas,USD/troy ounce,float64,3368,250.6,Harian,Harian
+USDIDR,Kurs dolar AS terhadap rupiah,IDR per USD,float64,3440,254.4,Harian,Harian
+SP500,Indeks saham S&P 500 (AS),poin indeks,float64,4108,251.4,Harian,Harian
+IHSG,Indeks Harga Saham Gabungan (BEI),poin indeks,float64,3973,242.3,Harian,Harian
+VIX,Indeks volatilitas tersirat pasar opsi AS,poin,float64,1764,250.3,Harian,Harian
+CPI,Inflasi Indonesia (nilai konsisten dengan inflasi rata-rata tahunan),% per tahun,float64,17,1.0,Tahunan,Tahunan (hari kerja pertama Januari)
+BI_rate,Suku bunga acuan Bank Indonesia,% per tahun,float64,18,2.9,Campuran,"Awal bulan s.d. Apr 2016, lalu tanggal keputusan"
+US_rate,Suku bunga kebijakan AS (Fed funds),% per tahun,float64,81,8.0,Bulanan,Bulanan (hari kerja pertama tiap bulan)

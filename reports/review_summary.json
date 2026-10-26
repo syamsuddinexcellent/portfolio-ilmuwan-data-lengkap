@@ -1,0 +1,94 @@
+{
+  "model": "Random Forest",
+  "metrics_test": {
+    "accuracy": 0.5603557814485387,
+    "balanced_accuracy": 0.5577859826402384,
+    "f1_macro": 0.5576985550184521,
+    "precision_macro": 0.558199919103352,
+    "recall_macro": 0.5577859826402384,
+    "roc_auc": 0.5691475579738309
+  },
+  "all_kpi_passed": false,
+  "kpi": [
+    {
+      "Kode": "T1",
+      "Kriteria": "Accuracy",
+      "Nilai": 0.5603557814485387,
+      "Ambang": "≥ 0.55",
+      "Lulus": true
+    },
+    {
+      "Kode": "T2",
+      "Kriteria": "F1-macro",
+      "Nilai": 0.5576985550184521,
+      "Ambang": "≥ 0.55",
+      "Lulus": true
+    },
+    {
+      "Kode": "T3",
+      "Kriteria": "ROC-AUC",
+      "Nilai": 0.5691475579738309,
+      "Ambang": "≥ 0.58",
+      "Lulus": false
+    },
+    {
+      "Kode": "T4",
+      "Kriteria": "Mengalahkan B1 & B2 (accuracy, F1, AUC)",
+      "Nilai": NaN,
+      "Ambang": "semua lebih tinggi",
+      "Lulus": true
+    },
+    {
+      "Kode": "T5",
+      "Kriteria": "Tanpa kebocoran data",
+      "Nilai": NaN,
+      "Ambang": "uji PIT lulus + purging",
+      "Lulus": true
+    }
+  ],
+  "business_criteria": [
+    {
+      "Kode": "B1",
+      "Kriteria bisnis": "Lebih informatif daripada aturan naif (selalu naik / acak)",
+      "Status": "Tercapai",
+      "Bukti": "T4 = LULUS; vs B3 (ikuti S&P 500): ΔAUC -0.011"
+    },
+    {
+      "Kode": "B2",
+      "Kriteria bisnis": "Faktor pendorong dapat dijelaskan",
+      "Status": "Tercapai",
+      "Bukti": "Faktor utama: sp500_ret, vix_chg, ihsg_ret_lag2"
+    },
+    {
+      "Kode": "B3",
+      "Kriteria bisnis": "Dapat dihasilkan otomatis sebelum 08.30 WIB dari data publik",
+      "Status": "Tercapai",
+      "Bukti": "Semua fitur dari data penutupan hari t (uji point-in-time lulus)"
+    },
+    {
+      "Kode": "B4",
+      "Kriteria bisnis": "Keterbatasan dilaporkan secara jujur",
+      "Status": "Tercapai",
+      "Bukti": "Keterbatasan didokumentasikan pada bagian 4 notebook ini"
+    }
+  ],
+  "top_features": [
+    "sp500_ret",
+    "vix_chg",
+    "ihsg_ret_lag2"
+  ],
+  "drift_high": [
+    "rate_spread",
+    "vix_level"
+  ],
+  "limitations": [
+    "Sumber sinyal terkonsentrasi",
+    "Bukan strategi trading",
+    "Kinerja bervariasi antarperiode",
+    "Pergeseran rezim",
+    "Kualitas & cakupan data",
+    "Kalibrasi probabilitas",
+    "Pemilihan hiperparameter kurang hemat"
+  ],
+  "decision": "**BELUM LANJUT ke pilot.** Kriteria T3 belum terpenuhi; jalankan rekomendasi prioritas tinggi lalu ulangi siklus pemodelan."
+}
