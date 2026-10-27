@@ -94,7 +94,7 @@ Unit 1–11 juga tersedia dalam satu file: [`00_gabungan_unit_01-11.ipynb`](note
 ## Struktur repositori
 
 ```
-portfolio-ilmuwan-data/
+portfolio-ilmuwan-data-lengkap/
 ├── data/
 │   ├── raw/market_data.csv        # data mentah harian 2010–2026 (4.277 baris)
 │   └── processed/                 # dihasilkan notebook 06–07 (tidak di-commit)
